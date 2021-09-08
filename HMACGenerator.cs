@@ -6,10 +6,6 @@ namespace Game
 {
     public class HMACGenerator
     {
-        public HMACGenerator()
-        {
-        }
-
         public static (string, string, string) GenerateHMAC(byte[] keyByte, string[] message)
         {
             var computerMove = message[RandomNumberGenerator.GetInt32(0, message.Length)];
