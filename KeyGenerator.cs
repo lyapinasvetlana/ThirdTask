@@ -5,10 +5,6 @@ namespace Game
 {
     public class KeyGenerator
     {
-        public KeyGenerator()
-        {
-        }
-
         public static byte[] GenerateKey()
         {
             var key = new byte[128];
